@@ -1,0 +1,30 @@
+[
+  {
+    "uid": 1,
+    "slider_tagline": "natural beauty",
+    "slider_title": "snow advanture.",
+    "slider_description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore ipsum rerum eaque, veniam necessitatibus unde nostrum magni nemo ratione harum!",
+    "slider_background": "https://i.ibb.co/djYjySq/skiing-slider-img-1.jpg"
+  },
+  {
+    "uid": 2,
+    "slider_tagline": "let's go now",
+    "slider_title": "enjoy and travel.",
+    "slider_description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore ipsum rerum eaque, veniam necessitatibus unde nostrum magni nemo ratione harum!",
+    "slider_background": "https://i.ibb.co/ch3XMhL/h1-slider-img-1.jpg"
+  },
+  {
+    "uid": 3,
+    "slider_tagline": "enjoy your",
+    "slider_title": "winter vacation.",
+    "slider_description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore ipsum rerum eaque, veniam necessitatibus unde nostrum magni nemo ratione harum!",
+    "slider_background": "https://i.ibb.co/BjcJYnc/winter-city.jpg"
+  },
+  {
+    "uid": 4,
+    "slider_tagline": "come with us",
+    "slider_title": "relax and explore.",
+    "slider_description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore ipsum rerum eaque, veniam necessitatibus unde nostrum magni nemo ratione harum!",
+    "slider_background": "https://i.ibb.co/TB7vdX7/h1-slider-img-2.jpg"
+  }
+]

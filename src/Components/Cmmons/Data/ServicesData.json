@@ -1,0 +1,26 @@
+[
+  {
+    "uid": 4845,
+    "service_icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhvIocGytWUNbOLghSYFdqpcfh8QnUim8eJBiAMnqEEkRXhpm1HQ9U2LfGWbNxaVQsZPM&usqp=CAU",
+    "service_name": "visa processing",
+    "service_desc": "Lorem ipsum dolor sit amet consectetur adipisicing"
+  },
+  {
+    "uid": 4846,
+    "service_icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhvIocGytWUNbOLghSYFdqpcfh8QnUim8eJBiAMnqEEkRXhpm1HQ9U2LfGWbNxaVQsZPM&usqp=CAU",
+    "service_name": "air ticket",
+    "service_desc": "Lorem ipsum dolor sit amet consectetur adipisicing"
+  },
+  {
+    "uid": 4840,
+    "service_icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhvIocGytWUNbOLghSYFdqpcfh8QnUim8eJBiAMnqEEkRXhpm1HQ9U2LfGWbNxaVQsZPM&usqp=CAU",
+    "service_name": "travel package",
+    "service_desc": "Lorem ipsum dolor sit amet consectetur adipisicing"
+  },
+  {
+    "uid": 4847,
+    "service_icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhvIocGytWUNbOLghSYFdqpcfh8QnUim8eJBiAMnqEEkRXhpm1HQ9U2LfGWbNxaVQsZPM&usqp=CAU",
+    "service_name": "hotel booking",
+    "service_desc": "Lorem ipsum dolor sit amet consectetur adipisicing"
+  }
+]
