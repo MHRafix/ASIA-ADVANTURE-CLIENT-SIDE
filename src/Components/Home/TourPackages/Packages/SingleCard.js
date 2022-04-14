@@ -2,7 +2,7 @@ import StarIcon from "@mui/icons-material/Star";
 import { Grid, Typography } from "@mui/material";
 import React from "react";
 import { Link } from "react-router-dom";
-import CountdownTimer from "../../../Cmmons/Utilities/CountdownTimer/CountdownTimer";
+import CountdownTimer from "../../../Cmmons/utilities/CountdownTimer/CountdownTimer";
 
 // style object here
 const package_name_style = {

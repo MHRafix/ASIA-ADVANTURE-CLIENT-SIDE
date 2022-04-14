@@ -1,9 +1,10 @@
 import AccountCircleOutlinedIcon from "@mui/icons-material/AccountCircleOutlined";
+import PlayCircleFilledWhiteOutlinedIcon from "@mui/icons-material/PlayCircleFilledWhiteOutlined";
 import ShoppingCartOutlinedIcon from "@mui/icons-material/ShoppingCartOutlined";
-import SlowMotionVideoOutlinedIcon from "@mui/icons-material/SlowMotionVideoOutlined";
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import Logo from "../../../logo.png";
+import { header_main_menus, MenuLink } from "../data/navigation_data";
 export const Header = () => {
   const [sticky, setSticky] = useState(false);
 
@@ -15,20 +16,17 @@ export const Header = () => {
     }
   });
   return (
-    <div className={sticky ? "header_wrapper_active" : "header_wrapper"}>
+    <div className={sticky ? "header_wrapper_sticky" : "header_wrapper"}>
       <header className="header">
         <div id="logo">
           <img src={Logo} alt="logo" className="logo_image" />
         </div>
         <nav id="navigation_bar">
-          <Link to="/">Home</Link>
-          <Link to="/services">Services</Link>
-          <Link to="/about_us">About Us</Link>
-          <Link to="/travel_packages">Travel Packages</Link>
-          <Link to="/pre_instruction">Pre Instruction</Link>
-          <Link to="/contact_us">Contact Us</Link>
+          {header_main_menus.map((menu) => (
+            <MenuLink key={menu.uid} menu={menu} />
+          ))}
         </nav>
-        <div id="icon_lements">
+        <div id="icon_elements">
           <ul>
             <li>
               <span id="cart_badge">0</span>
@@ -45,7 +43,7 @@ export const Header = () => {
             </li>
             <li>
               <span className="nav_icon">
-                <SlowMotionVideoOutlinedIcon />
+                <PlayCircleFilledWhiteOutlinedIcon />
               </span>
             </li>
           </ul>

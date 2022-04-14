@@ -15,7 +15,7 @@ const title_style = {
 const SectionTitle = ({ section_title }) => {
   return (
     <>
-      <Grid sx={{ margin: "30px 8px" }}>
+      <Grid sx={{ margin: "50px 8px" }}>
         <Typography sx={title_style} variant="h1" component="h3">
           {section_title}
         </Typography>

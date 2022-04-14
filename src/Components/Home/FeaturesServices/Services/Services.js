@@ -4,10 +4,12 @@ import ServiceCard from "./ServiceCard";
 
 const Services = () => {
   return (
-    <div className="upcoming_tour_section">
-      <SectionTitle section_title={"Our Services"} />
-      <ServiceCard />
-    </div>
+    <>
+      <div className="section_wrapper">
+        <SectionTitle section_title="Our Services" />
+        <ServiceCard />
+      </div>
+    </>
   );
 };
 

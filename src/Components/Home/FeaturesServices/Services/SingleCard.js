@@ -41,8 +41,8 @@ const SingleCard = ({ service_data }) => {
   return (
     <Grid item md={3} xs={12}>
       <div className="service_card">
-        <div className="service_icon">
-          <img src={service_icon} alt="service_icon" className="service_icon" />
+        <div className="service_icon_wrapper">
+          <span className="service_icon">{service_icon}</span>
         </div>
         <div className="service_name">
           <Typography variant="h2" component="h4" sx={package_name_style}>

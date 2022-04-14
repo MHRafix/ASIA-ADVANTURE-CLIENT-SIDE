@@ -4,10 +4,12 @@ import PackageCard from "./PackageCard";
 
 const Packages = () => {
   return (
-    <div className="upcoming_tour_section">
-      <SectionTitle section_title={"upcoming tour"} />
-      <PackageCard />
-    </div>
+    <>
+      <div className="section_wrapper">
+        <SectionTitle section_title={"upcoming tour"} />
+        <PackageCard />
+      </div>
+    </>
   );
 };
 

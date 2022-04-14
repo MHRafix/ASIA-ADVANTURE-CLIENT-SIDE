@@ -1,14 +1,15 @@
 import React from "react";
 import Slider from "react-slick";
-import PackagesData from "../../../Cmmons/data/travel_packages_data.json";
-import SingleCard from "./SingleCard";
+import { customer_revies } from "../../../Cmmons/data/reviews_data";
+import ReviewsCard from "../ReviewsCard/ReviewCard";
 
-const PackageCard = () => {
+const ReviewSlider = () => {
   const settings = {
     className: "center",
     infinite: true,
-    centerPadding: "60px",
-    slidesToShow: 4,
+    centerPadding: "100px",
+    slidesToShow: 3,
+    slidesToScroll: 1,
     autoplay: true,
     speed: 3000,
     autoplaySpeed: 3000,
@@ -49,16 +50,15 @@ const PackageCard = () => {
       },
     ],
   };
-
   return (
     <>
       <Slider {...settings}>
-        {PackagesData.map((tour) => (
-          <SingleCard key={tour.uid} tour_date={tour} />
+        {customer_revies.map((review) => (
+          <ReviewsCard key={review.uid} review_data={review} />
         ))}
       </Slider>
     </>
   );
 };
 
-export default PackageCard;
+export default ReviewSlider;
