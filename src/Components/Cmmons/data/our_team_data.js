@@ -1,0 +1,51 @@
+export const team_members_data = [
+  {
+    uid: 123,
+    member_name: "forhad hossain",
+    member_role: "CEO and Founder",
+    member_image:
+      "https://i.ibb.co/LZ3vrBb/240875750-3057857404503018-1581813964552351002-n.jpg",
+    member_facebook: "https://facebook.com/",
+    member_phone: "01726637567",
+  },
+  {
+    uid: 124,
+    member_name: "jahid hasan",
+    member_role: "trip planner",
+    member_image: "https://i.ibb.co/0KBTbcG/images.jpg",
+    member_facebook: "https://facebook.com/",
+    member_phone: "01704556476",
+  },
+  {
+    uid: 125,
+    member_name: "arif hasan",
+    member_role: "event manager",
+    member_image: "https://i.ibb.co/8jRFJ8R/images-3.jpg",
+    member_facebook: "https://facebook.com/",
+    member_phone: "01648953927",
+  },
+  {
+    uid: 126,
+    member_name: "nazmul haque",
+    member_role: "travel guide",
+    member_image: "https://i.ibb.co/dDKgySw/images-2.jpg",
+    member_facebook: "https://facebook.com/",
+    member_phone: "01648953917",
+  },
+  {
+    uid: 127,
+    member_name: "sakib daria",
+    member_role: "travel guide",
+    member_image: "https://i.ibb.co/vkH9B4K/images-1.jpg",
+    member_facebook: "https://facebook.com/",
+    member_phone: "01648954427",
+  },
+  {
+    uid: 128,
+    member_name: "emon khan",
+    member_role: "event manager",
+    member_image: "https://i.ibb.co/JcxVtjj/download.jpg",
+    member_facebook: "https://facebook.com/",
+    member_phone: "01648953327",
+  },
+];
