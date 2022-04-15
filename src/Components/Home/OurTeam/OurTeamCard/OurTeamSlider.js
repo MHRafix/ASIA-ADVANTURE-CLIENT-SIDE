@@ -9,10 +9,10 @@ const OurTeamSlider = () => {
     centerPadding: "100px",
     slidesToShow: 4,
     slidesToScroll: 1,
-    // autoplay: true,
-    // speed: 3000,
-    // autoplaySpeed: 3000,
-    // swipeToSlide: true,
+    autoplay: true,
+    speed: 3000,
+    autoplaySpeed: 3000,
+    swipeToSlide: true,
     responsive: [
       {
         breakpoint: 1024,
